@@ -1,38 +1,27 @@
 {
-  "Box3(神奇代码岛)": [
-    {
-      "label": "通过hash获得文件",
-      "modulePath": "box3/get-file-by-hash"
-    }
-  ],
-  "编程猫社区": [
-    {
-      "label": "论坛帖子刷浏览量",
-      "modulePath": "codemao/form-view"
-    },
-    {
-      "label": "Kitten作品刷浏览量",
-      "modulePath": "codemao/work-view"
-    },
-    {
-      "label": "自动顶贴",
-      "modulePath": "codemao/form-auto-reply"
-    },
-    {
-      "label": "上传文件",
-      "modulePath": "codemao/upload-file"
-    },
-    {
-      "label": "超级搜索",
-      "modulePath": "codemao/super-search"
-    },
-    {
-      "label": "劫持帖子",
-      "modulePath": "codemao/cannotUse"
-    },
-    {
-      "label": "帖子魔改器",
-      "modulePath": "codemao/cannotUse"
-    }
-  ]
+    "Box3(神奇代码岛)": [{
+        "label": "通过hash获得文件",
+        "modulePath": "box3/get-file-by-hash"
+    }],
+    "编程猫社区": [{
+            "label": "论坛帖子刷浏览量",
+            "modulePath": "codemao/form-view"
+        },
+        {
+            "label": "Kitten作品刷浏览量",
+            "modulePath": "codemao/work-view"
+        },
+        {
+            "label": "从服务器上刷帖子浏览量",
+            "modulePath": "codemao/form-server-view"
+        },
+        {
+            "label": "自动顶贴",
+            "modulePath": "codemao/form-auto-reply"
+        }
+    ],
+    "操作": [{
+        "label": "退出",
+        "modulePath": "settings/exit"
+    }]
 }

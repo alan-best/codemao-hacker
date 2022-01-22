@@ -1,18 +1,22 @@
 {
-  "name": "codemao-hacker",
-  "version": "1.0.0",
-  "description": "codemao外挂工具",
-  "main": "index.js",
-  "repository": "https://github.com/alan-best/codemao-hacker.git",
-  "author": "Alan_Best",
-  "license": "GPL-2.0",
-  "private": false,
-  "dependencies": {
-    "axios": "^0.21.1",
-    "chalk": "^4.1.2",
-    "inquirer": "^8.1.2"
-  },
-  "devDependencies": {
-    "@types/node": "^16.7.1"
-  }
+    "name": "codemao-hacker",
+    "version": "1.0.0",
+    "description": "codemao外挂工具",
+    "main": "index.js",
+    "repository": "https://github.com/alan-best/codemao-hacker.git",
+    "author": "Alan_Best",
+    "license": "GPL-2.0",
+    "private": false,
+    "dependencies": {
+        "axios": "^0.21.1",
+        "chalk": "^4.1.2",
+        "inquirer": "^8.1.2"
+    },
+    "devDependencies": {
+        "@types/node": "^16.7.1"
+    },
+    "scripts": {
+        "test": "npx nodemon index.js",
+        "start": "node index.js"
+    }
 }
